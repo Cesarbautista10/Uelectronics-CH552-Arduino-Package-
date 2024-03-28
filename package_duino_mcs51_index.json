@@ -32,10 +32,10 @@
                             "packager": "CH55xDuino"
                         }
                     ],
-                    "url": "https://github.com/Cesarbautista10/duinox/releases/download/cv4/duino_version4.tar.bz2",
-                    "archiveFileName": "duino_version4.tar.bz2",
-                    "checksum": "SHA-256:90f4e8b1f1e00c719d9c297ca6aa2e2b9f41c00eb787a028d5cdfef521490f10",
-                    "size": "737280"
+                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package/releases/download/V0.0.1/duino_version_2024-03-28.tar.bz2",
+                    "archiveFileName": "duino_version_2024-03-28.tar.bz2",
+                    "checksum": "SHA-256:e9b8debc14920a32417ec3afdb3cbb9f6762c0017b27dc4a65866662a5b98dc3",
+                    "size": "86861"
                 }
             ],
 
