@@ -12,7 +12,6 @@
  *****************************************************************************/
 
 #include <stdio.h>
-#include "src/config.h"                   // user configurations
 #include "src/system.h"                   // system functions
 #include "src/gpio.h"                     // for GPIO
 #include "src/delay.h"                    // for delays
@@ -29,6 +28,16 @@
 /******************************************************************************
  * TYPEDEFS
  *****************************************************************************/
+// Define los pines PWM
+#define PIN_PWM1             P30       // PWM pin 0
+#define PIN_PWM2             P34       // PWM pin 4
+
+// Selecciona el pin PWM
+#define SELECT_PWM(pin)      (PIN_PWM1)     // Selecciona el pin que desees usar aquí (PIN_PWM1 o PIN_PWM2)
+#define PIN_PWM              SELECT_PWM(PIN_PWM1) // Selecciona el pin PWM deseado
+
+// Ahora puedes cambiar entre PIN_PWM1 y PIN_PWM2 simplemente modificando SELECT_PWM en tu definición de PIN_PWM
+
 
 /******************************************************************************
  * PUBLIC FUNCTION PROTOTYPES
