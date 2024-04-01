@@ -32,10 +32,10 @@
                             "packager": "CH55xDuino"
                         }
                     ],
-                    "url": "https://github.com/UNIT-Electronics/Uelectronics-CH552-Arduino-Package/releases/download/v0.0.1/duino_version_2024-03-28.tar.bz2",
-                    "archiveFileName": "duino_version_2024-03-28.tar.bz2",
-                    "checksum": "SHA-256:f51547be71041c095608ca50fc985e328239b36400d9c99912b1d0dcb2080af5",
-                    "size": "87977"
+                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package-/releases/download/v0.0.1/duino_version_2024-04-01.tar.bz2",
+                    "archiveFileName": "duino_version_2024-04-01.tar.bz2",
+                    "checksum": "SHA-256:3062ce48ba010e95c44e2d04bbfac54c72741ffd4a88a3227dd7a126f532054b",
+                    "size": "10895"
                 }
             ],
 
