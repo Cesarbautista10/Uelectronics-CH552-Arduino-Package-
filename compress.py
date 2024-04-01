@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# compress.py
+
+"""
+Descripción: Genera un archivo comprimido tar.bz2 de una carpeta y guarda información del archivo comprimido en un archivo de texto.
+Autor: Cesar
+Fecha de creación: 01/04/2024
+Fecha de modificación:
+Versión: 1.0
+Dependencias: tarfile, os, hashlib, datetime
+"""
+
 import tarfile
 import os
 import hashlib
