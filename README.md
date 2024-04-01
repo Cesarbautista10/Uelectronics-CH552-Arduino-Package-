@@ -26,7 +26,7 @@ To install, follow these steps:
 This package is distributed under the GNU Lesser General Public License, Version 2.1, February 1999.
 
 ## Contributing
-If you wish to contribute or have bug fixes, please open an issue or pull request [here](https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package/issues).
+If you wish to contribute or have bug fixes, please open an issue or pull request 
 
 ## Licensing and Credits
 * The [Arduino IDE and ArduinoCore-API](https://arduino.cc) are developed and maintained by the Arduino team and are licensed under GPL.

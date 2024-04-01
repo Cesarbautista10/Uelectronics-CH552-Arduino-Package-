@@ -27,7 +27,7 @@ Para instalar, sigue estos pasos:
 Este paquete se distribuye bajo la Licencia Pública General Menor de GNU, Versión 2.1, febrero de 1999.
 
 ## Contribuciones
-Si deseas contribuir o tienes correcciones de errores, por favor abre un problema o una solicitud de extracción [aquí]().
+Si deseas contribuir o tienes correcciones de errores, por favor abre un problema o una solicitud de extracción 
 
 ## Licencias y Créditos
 * El [IDE de Arduino y ArduinoCore-API](https://arduino.cc) son desarrollados y mantenidos por el equipo de Arduino y están licenciados bajo GPL.
