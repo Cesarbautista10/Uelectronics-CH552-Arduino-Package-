@@ -12,7 +12,7 @@ To install, follow these steps:
 1. Open the Arduino IDE and navigate to File -> Preferences.
 2. In the dialog that appears, enter the following URL into the "Additional Boards Manager URLs" field: 
 
-   > https://raw.githubusercontent.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package/main/package_duino_mcs51_index.json
+   > https://raw.githubusercontent.com/UNIT-Electronics/Uelectronics-CH552-Arduino-Package/main/package_duino_mcs51_index.json?token=GHSAT0AAAAAACMB25SXVMUAFOQSISZQ7ABEZQK6T5Q
 
    ![Adding URL](./images/board_json.png)
 
