@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "CH55xDuino",
+            "name": "CH55x",
             "maintainer": "Unit Electronics",
             "websiteURL": "https://github.com/UNIT-Electronics",
             "email": "r&d-innovation@uelectronics.com",
@@ -15,27 +15,25 @@
                     "version": "0.0.1",
                     "category": "Contributed",
                     "boards": [
-                        {"name": "CH552 Board"},
-                        {"name": "CH551 Board"},
-                        {"name": "CH559 Board"},
-                        {"name": "CH549 (experimental)"}
+                        {"name": "CH552 Board"}
+                       
                     ],
                     "toolsDependencies": [
                         {
                             "name": "MCS51Tools",
                             "version": "2023.10.10",
-                            "packager": "CH55xDuino"
+                            "packager": "CH55x"
                         },
                         {
                             "name": "sdcc",
                             "version": "build.13407_4",
-                            "packager": "CH55xDuino"
+                            "packager": "CH55x"
                         }
                     ],
-                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package-/releases/download/v0.0.3/duino_version_2024-04-02.tar.bz2",
+                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package-/releases/download/v0.0.4/duino_version_2024-04-02.tar.bz2",
                     "archiveFileName": "duino_version_2024-04-02.tar.bz2",
-                    "checksum": "SHA-256:4666494c52187b16699f4881172b85b4711802d5d553032833e50c2b929f41d8",
-                    "size": "151712"
+                    "checksum": "SHA-256:7c2243f2f24e0ab82fbd72fe94bfccc572f6456678ead0882467739c92337c63",
+                    "size": "151813"
                 }
             ],
 
