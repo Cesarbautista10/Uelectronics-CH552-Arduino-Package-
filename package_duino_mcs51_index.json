@@ -13,7 +13,7 @@
                     "name": "CH55x SketchLab",
                     "architecture": "mcs51",
                     "version": "0.0.1",
-                    "category": "Contributed",
+                    "category": "Unit Electronics",
                     "boards": [
                         {"name": "CH552 Board"}
                        
