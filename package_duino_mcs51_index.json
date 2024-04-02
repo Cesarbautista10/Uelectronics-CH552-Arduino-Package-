@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "CH55x",
+            "name": "Uelectronics",
             "maintainer": "Unit Electronics",
             "websiteURL": "https://github.com/UNIT-Electronics",
             "email": "r&d-innovation@uelectronics.com",
@@ -22,12 +22,12 @@
                         {
                             "name": "MCS51Tools",
                             "version": "2023.10.10",
-                            "packager": "CH55x"
+                            "packager": "Uelectronics"
                         },
                         {
                             "name": "sdcc",
                             "version": "build.13407_4",
-                            "packager": "CH55x"
+                            "packager": "Uelectronics"
                         }
                     ],
                     "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package-/releases/download/v0.0.4/duino_version_2024-04-02.tar.bz2",
