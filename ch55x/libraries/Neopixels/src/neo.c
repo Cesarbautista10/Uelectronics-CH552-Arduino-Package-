@@ -81,19 +81,31 @@
 // transmission of the individual bytes is less than the pixel's latch time.
 void NEO_sendByte(uint8_t data) { 
   data;                 // stop unreferenced argument warning
-  __asm
-    .even
-    mov  r7, #8         ; 2 CLK - 8 bits to transfer
-    xch  a, dpl         ; 2 CLK - data byte -> accu
-    01$:
-    rlc  a              ; 1 CLK - data bit -> carry (MSB first)
-    setb NEOPIN         ; 2 CLK - NEO pin HIGH
-    mov  NEOPIN, c      ; 2 CLK - "0"-bit? -> NEO pin LOW now
-    T1H_DELAY           ; x CLK - TH1 delay
-    clr  NEOPIN         ; 2 CLK - "1"-bit? -> NEO pin LOW a little later
-    TCT_DELAY           ; y CLK - TCT delay
-    djnz r7, 01$        ; 2/4|5|6 CLK - repeat for all bits
-  __endasm;
+  // __asm
+  //   .even
+  //   mov  r7, #8         ; 2 CLK - 8 bits to transfer
+  //   xch  a, dpl         ; 2 CLK - data byte -> accu
+  //   01$:
+  //   rlc  a              ; 1 CLK - data bit -> carry (MSB first)
+  //   setb NEOPIN         ; 2 CLK - NEO pin HIGH
+  //   mov  NEOPIN, c      ; 2 CLK - "0"-bit? -> NEO pin LOW now
+  //   T1H_DELAY           ; x CLK - TH1 delay
+  //   clr  NEOPIN         ; 2 CLK - "1"-bit? -> NEO pin LOW a little later
+  //   TCT_DELAY           ; y CLK - TCT delay
+  //   djnz r7, 01$        ; 2/4|5|6 CLK - repeat for all bits
+  // __endasm;
+  __asm__("    .even                                      \n"
+          "    mov  r7, #8                                \n"
+          "    xch  a, dpl                                \n"
+          "    01$:                                       \n"
+          "    rlc  a                                     \n"
+          "    setb NEOPIN                                \n"
+          "    mov  NEOPIN, c                             \n"
+          "    T1H_DELAY                                  \n"
+          "    clr  NEOPIN                                \n"
+          "    TCT_DELAY                                  \n"
+          "    djnz r7, 01$                               \n"          
+          );
 }
 
 // ===================================================================================
