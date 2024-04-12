@@ -30,9 +30,9 @@
                             "packager": "Uelectronics"
                         }
                     ],
-                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package--v2/releases/download/v0.0.1/duino_version_2024-04-12.tar.bz2",
+                    "url": "https://github.com/Cesarbautista10/Uelectronics-CH552-Arduino-Package-/releases/download/v0.0.4/duino_version_2024-04-12.tar.bz2",
                     "archiveFileName": "duino_version_2024-04-12.tar.bz2",
-                    "checksum": "SHA-256:59a5abc1cec2eef893ea07bafbda3ea1687bfb84eb0b482448ce30918512913c",
+                    "checksum": "SHA-256:5932bf2fef874ba041262b615cc70801e9d38d7ffb2a655a1a39cd9959527058",
                     "size": "106467"
                 }
             ],
