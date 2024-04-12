@@ -3,6 +3,9 @@
 #define _NEOPIXEL_H_INCLUDED
 
 #include <Arduino.h>
+// NeoPixel configuration
+#define NEO_GRB                         // type of pixel: NEO_GRB or NEO_RGB
+
 
 
 extern __xdata uint16_t PIN_NEO;
