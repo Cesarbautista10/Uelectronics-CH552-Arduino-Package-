@@ -1,5 +1,5 @@
-Nombre del archivo comprimido: duino_version_2024-04-02.tar.bz2
+Nombre del archivo comprimido: duino_version_2024-04-12.tar.bz2
 Datos del archivo comprimido:
-Tamaño del archivo: 130141 bytes
+Tamaño del archivo: 130355 bytes
 Tipo de archivo: bz2
-SHA256 del archivo: 11288ed6ec1bbb1e67443039e37245bbb4f13614d14df83fda86960f30e2652d
+SHA256 del archivo: 00a95bf987d783de1247e4bdddaee86ade3fe53bdb05e6ec18766efe7e7135e0
